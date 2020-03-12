@@ -1,4 +1,4 @@
-# Opencv - Localization
+ # Opencv - Localization
 Arucomarker를 이용하여 단일 및 더블 카메라에서 마커 위치 및 각도 측정을 위한 코드입니다.
 
 ## 1. Getting Started
@@ -11,8 +11,10 @@ Arucomarker를 이용하여 단일 및 더블 카메라에서 마커 위치 및 
 ### Environment
 1. 로지텍 c920웹캠
 2. 책상높이 72cm, 책상 ~ 카메라 높이 : 188cm
-3. Aruco Marker Dict 4*4, 10cm크기 마커사용
-![image](/Users/gimjiwon/Desktop/opencv/github/e.jpeg)
+3. Aruco Marker Dict 4*4, 10cm크기 마커사용 
+
+referencephoto 폴더 참조바랍니다.
+
 
 ## 2. How to use
 ### 1. Calibration
@@ -45,4 +47,11 @@ multicarmera.py 파일, 2대의 카메라를 이용해서 마커 위치를 구�
 겹치는 영역을 만들어 그 구역내에서는 distortion값을 이용해 w(가중치)를 구하여 좌표를 보정하도록 하였다.
 
 여기서 distortion값은 각각의 카메라로 부터 마커까지의 거리, w는 w = (1/d1)/((1/d1)+(1/d2))를 사용하였다.
+
+
+
+## Contact
+If you have any question, You can contact to me
+
+E-mail : top9076@naver.com
 
