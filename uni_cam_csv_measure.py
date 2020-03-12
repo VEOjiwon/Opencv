@@ -227,7 +227,7 @@ while True:
                 e_xy[8].append(abs(abs(y)-abs(-50)))
                 tem_theta[8].append(abs(seta))
             """
-            9개 이상 마커로 실험시 코드 추가필요...
+            10개 이상의 마커로 실험시 코드 추가필요...
             elif idr == 9:
                 tem_x[9].append(x)
                 tem_y[9].append(y)
