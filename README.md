@@ -48,3 +48,8 @@ multicarmera.py 파일, 2대의 카메라를 이용해서 마커 위치를 구�
 
 여기서 distortion값은 각각의 카메라로 부터 마커까지의 거리, w는 w = (1/d1)/((1/d1)+(1/d2))를 사용하였다.
 
+
+
+## Contact
+E-mail : top9076@naver.com
+
