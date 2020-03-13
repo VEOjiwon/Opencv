@@ -39,7 +39,9 @@ http://chev.me/arucogen/
 
 
 ### 3. 단일카메라
-uni_cam_csv_measure.py 파일, 단일카메라로 마커의 x,y, theta측정 및 csv파일 생성하기 그리고 성능측정과 관련된 코드들이 있다.
+1. poesdetection.py 파일, 단일카메라로 마커여러개의 x,y,theta측정이 가능하다. 측정된 결과는 csv파일로 기록된다.
+
+2. poesdetection_measure.py 파일, 단일카메라로 마커여러개의 x,y,theta측정 및 소요시간, 에러 측정 등이 가능하다. 측정된 결과는 평균, 표준편차, 95분위값, 정규분포그래프, 실제 값 확인 등으로 실험결과를 검증할수 있다.
 
 ### 4. 멀티카메라
 multicarmera.py 파일, 2대의 카메라를 이용해서 마커 위치를 구하는 코드이다.
